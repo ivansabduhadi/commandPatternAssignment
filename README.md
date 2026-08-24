@@ -1,0 +1,2 @@
+# commandPatternAssignment
+assignment
