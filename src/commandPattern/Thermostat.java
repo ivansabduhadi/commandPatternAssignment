@@ -1,13 +1,11 @@
 package commandPattern;
 
 public class Thermostat {
-
     public String increaseTemperature() {
-        return "Thermostat temperature increased!";
+        return "Temperature increased";
     }
 
     public String decreaseTemperature() {
-        return "Thermostat temperature decreased!";
+        return "Temperature decreased";
     }
-
 }

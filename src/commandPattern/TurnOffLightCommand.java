@@ -1,7 +1,6 @@
 package commandPattern;
 
 public class TurnOffLightCommand implements Command {
-
     private Light light;
 
     public TurnOffLightCommand(Light light) {

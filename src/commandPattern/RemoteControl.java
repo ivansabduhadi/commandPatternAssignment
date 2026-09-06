@@ -7,7 +7,6 @@ public class RemoteControl {
     public void setCommand(Command command) {
         this.command = command;
     }
-
     public String pressButton() {
         return command.execute();
     }

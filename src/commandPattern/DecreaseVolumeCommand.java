@@ -1,6 +1,6 @@
 package commandPattern;
 
-public class DecreaseVolumeCommand implements Command {
+public class DecreaseVolumeCommand implements Command  {
 
     private MusicPlayer musicPlayer;
 
@@ -12,4 +12,5 @@ public class DecreaseVolumeCommand implements Command {
     public String execute() {
         return musicPlayer.decreaseVolume();
     }
+
 }

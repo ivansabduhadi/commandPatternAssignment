@@ -1,7 +1,6 @@
 package commandPattern;
 
 public class DecreaseTemperatureCommand implements Command {
-
     private Thermostat thermostat;
 
     public DecreaseTemperatureCommand(Thermostat thermostat) {
@@ -12,4 +11,5 @@ public class DecreaseTemperatureCommand implements Command {
     public String execute() {
         return thermostat.decreaseTemperature();
     }
+
 }

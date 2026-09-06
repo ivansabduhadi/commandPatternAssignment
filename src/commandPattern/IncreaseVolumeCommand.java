@@ -1,7 +1,6 @@
 package commandPattern;
 
 public class IncreaseVolumeCommand implements Command {
-
     private MusicPlayer musicPlayer;
 
     public IncreaseVolumeCommand(MusicPlayer musicPlayer) {
